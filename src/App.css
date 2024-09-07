@@ -1,0 +1,47 @@
+.layout {
+  width: 350px;
+  height: 240px;
+  font-size: 16px;
+}
+
+.header {
+  width: 350px;
+  height: 44px;
+  margin-bottom: 16px;
+}
+
+.month-select {
+  width: 44px;
+  height: 44px;
+  background-color: white;
+}
+
+.month-select:hover {
+  background-color: #e6e6e6;
+}
+
+.day-button {
+  width: 50px;
+  height: 36px;
+}
+
+.day-state {
+  background-color: white;
+}
+
+.day-state:hover {
+  background-color: #e6e6e6;
+}
+
+.day-state:today {
+  background-color: #ffff76;
+}
+
+.day-state:active {
+  background-color: #006edc;
+}
+
+.day-state:non-current-month {
+  background-color: #757575;
+}
+
