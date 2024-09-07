@@ -61,9 +61,8 @@ export default function DatePicker() {
           {'<'}
         </div>
         <div className={styles.headerMonth}>
-          <span>{year}</span>
-          <span>/</span>
-          <span>{month}</span>
+          <span>{year}年</span>
+          <span>{month}月</span>
         </div>
         <div className={styles.monthSelect} onClick={onAddMonth}>
           {'>'}
