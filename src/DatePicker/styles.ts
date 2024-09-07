@@ -79,9 +79,15 @@ export const dayStateCurrent = css(`
 export const dayStateToday = css(`
   background-color: #ffff76;
   color: #333;
+  :hover {
+    background-color: #eeee76;
+  }
 `)
 
 export const dayStateActive = css(`
   background-color: #006edc;
   color: white;
+  :hover {
+    background-color: #005cbf;
+  }
 `)
