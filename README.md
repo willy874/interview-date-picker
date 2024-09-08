@@ -1,5 +1,7 @@
 # React Component Overview
 
+## Interview Question
+
 - Browser Support:
 
   - Chrome
@@ -30,7 +32,7 @@
 - Bonus:
   - Unit test.
 
-## Question-1
+### Question-1
 
 - First click date to set it as start date value.
 - Next click date is same as current select option or later than current option will set it as end date value.
@@ -38,10 +40,19 @@
 - Show not-allowed icon when hovering on “Non-Current Month” day. Disable day click.
 - Show current month.
 
-## Question-2
+### Question-2
 
 - First click date to set it as start date value.
 - Next click date is same as current select option or later than current option will set it as end date value.
 - Next click date is earlier than current option will reset start date value.
 - Show current month.
 - Click to select previous/next month.
+
+## Setup
+
+- node.js v20+
+- pnpm v8.15+
+
+```sh
+pnpm install
+```
